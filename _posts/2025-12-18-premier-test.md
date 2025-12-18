@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: draft
 date: 2025-12-18T12:16:28 +0100
 title: 'Premier test'
 categories: [monde]
