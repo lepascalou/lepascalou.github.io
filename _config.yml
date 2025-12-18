@@ -1,5 +1,6 @@
 # The Site Configuration
 
+
 # Import the theme
 theme: jekyll-theme-chirpy
 
@@ -19,7 +20,7 @@ title: Aléances # the main title
 tagline: Pour me comprendre...
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Tech | Voyages | Introspection | Spiritualité
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -38,8 +39,8 @@ social:
   email: lepascalou@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    #- https://twitter.com/username # change to your Twitter homepage
+    - https://github.com/lepascalou # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -119,10 +120,10 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
+    repo: "lepascalou/lepascalou.github.io"
+    repo_id: "R_kgDOQq4Xjg"
+    category: "General"
+    category_id: "DIC_kwDOQq4Xjs4Cz-mP"
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'

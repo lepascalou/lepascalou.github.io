@@ -4,6 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
+![Hero image](/assets/img/blogpic2.webp)
 
 # Qui suis-je ?
 
@@ -15,6 +16,6 @@ Un explorateur qui aime tracer sa propre voie, qui s'est auto-saboté la majeure
 
 # Pourquoi ce partage ?
 
-C'est une étape importante dans le processus d'affirmation de ma place. Depuis quelques mois je n'ai plus de place (ou très peu) pour de nouvelles stimulations/informations et peut-être que d'extérioriser via ce blog tout ce qui se passe en moi me permettra d'être à nouveau disponible aux enseignements divers.
+C'est une étape importante dans le processus d'affirmation de ma place. Depuis quelques mois je n'ai plus de place (ou très peu) pour de nouvelles stimulations/informations et peut-être que d'extérioriser via ce blog tout ce qui se passe en moi me permettra d'être à nouveau disponible aux enseignements de la Vie.
 
 En plus c'est l'occasion de se dévoiler, je peux dire ici qui je crois être sans me soucier de l'audience, puisque c'est _mon_ espace, ouvert à toutes et tous. Bref, c'est une expérimentation.
