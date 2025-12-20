@@ -2,12 +2,14 @@
 title: "Entrée en matière"
 date: 2025-12-18 21:54:42 +0100
 categories: [Réflexions]
-tags: [personnel]
+tags: [personnel, introspection]
+image: /assets/img/reflexion.webp
+
 ---
 
-# Comment aborder le premier partage ?
+# Comment aborder cette première publication  ?
 
-J'ai envie de développer les idées énoncées dans la section [Présentation]({% link _tabs/présentation.md %}). 
+Probablement en développant une petit peu les raisons de ce blog énoncées dans la [Présentation]({% link _tabs/présentation.md %}). 
 
 ## Faire de la place
 
