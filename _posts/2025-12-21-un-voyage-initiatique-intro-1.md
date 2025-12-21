@@ -7,7 +7,7 @@ image: /assets/img/leopards2.webp
 ---
 
 
-# Choc
+## Choc
 
 Le vent glacial et sec de l'hiver souffle sur l'aéroport de Lyon en cette nuit du 11 janvier 2025. Il est 21 heures passées, et les vêtements que je porte sont bien trop légers pour affronter le froid mordant qui enveloppe tout.
 
@@ -17,7 +17,7 @@ La vie nous offre parfois des expériences d'une intensité rare et si boulevers
 
 Afin de donner vie à cette aventure non ordinaire il me semble judicieux d'en évoquer la genèse. Il est pour cela nécessaire de remonter le fil du temps jusqu'à une scène de vie quotidienne il y a plus de vingt ans : une halte dans un supermarché. Une étape en apparence banale qui s'avère décisive. Symbolique d'un pas sur le chemin de la transformation personnelle. Amorce d'une quête initiatique à travers une petite partie de ce monde.
 
-# Départ
+## Départ
 
 An 2000. Suite à des événements personnels marquants en lien avec la schizophrénie et l'amitié, me voici à l'aube d'une phase de (re)construction identitaire. J'ai vingt-deux ans et afin de reconquérir une autonomie perdue, j'ai accepté un travail dans les Alpes pour la saison d'hiver.
 
@@ -25,7 +25,7 @@ Ma vieille Ford Fiesta est chargée des quelques affaires en ma possession : des
 
 Le trajet depuis les environs toulousains s'annonce plutôt long - environ sept heures sans pause - et je me sens bien, légèrement excité par la perspective d'un nouvel environnement.
 
-# Une graine
+## Une graine
 
 Cela fait des heures que j'écoute en boucle ma cassette audio préférée quand enfin se dessinent devant moi les sommets déjà blanchis de la Tarentaise. Un silence reposant envahit l'habitacle lorsque je coupe le contact, garé sur le parking bondé du supermarché. J'ai dans les mains une liste concise de provisions pour ces premiers jours à la montagne. Je n'apprécie ni le monde ni l'ambiance "électrique" des magasins.
 
@@ -33,7 +33,7 @@ Caddie en main je me lance, le rayon des livres est tout de suite sur ma droite 
 
 Satisfait, je reprends les courses, encore ignorant de l'impact qu'aura cet ouvrage sur ma vie.
 
-# Naissance d'une quête
+## Naissance d'une quête
 
 Après une installation sommaire dans mon logement de fonction, je ne peux m'empêcher - malgré la fatigue de la route - de commencer la lecture de mon nouveau livre. Immédiatement le récit me fascine et me bouleverse et tout ce que je lis résonne : les expériences extraordinaires de Castaneda, la sagesse de Don Juan le sorcier, sa patience, son respect et sa connexion intime aux esprits de la nature. Au fil des pages naît en moi une aspiration profonde : j'aimerai rencontrer un jour un personnage comme Don Juan, qui m'enseignerait une autre perception du monde.
 
