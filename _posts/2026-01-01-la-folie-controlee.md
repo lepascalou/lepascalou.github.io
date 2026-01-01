@@ -41,8 +41,8 @@ sans jamais avoir le moindre doute, sans le moindre remords. »
 
 Don Juan appuie son propos en demandant à Castaneda s'il pense qu'ils sont égaux :
 
-> « Eh bien… sommes-nous égaux ?
-— Bien sûr que nous le sommes. »
+> « Eh bien… sommes-nous égaux ?  
+— Bien sûr que nous le sommes. »  
 Très naturellement j’étais condescendant. J’éprouvais pour lui
 beaucoup d’amitié, bien que parfois il fût insupportable, néanmoins je
 conservais bien au fond de moi-même la certitude, que pourtant je
