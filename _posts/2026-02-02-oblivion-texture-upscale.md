@@ -125,8 +125,10 @@ Ouvrir ensuite le fichier `fleshsack.dds` dans Paint.NET et passer l'image en ni
 {: .prompt-tip }
 
 ![Sans passage Noir et blanc](normalmapWithoutGS.webp)
+_Sans l'étape Noir et Blanc_
 
 ![Avec passage Noir et blanc](normalmapWithGS.webp)
+_Avec l'étape Noir et Blanc_
 
 ### Créer le mod et l'installer
 
