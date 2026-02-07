@@ -74,7 +74,7 @@ Il existe plusieurs plusieurs fichiers textures dans le dossier ayant le même n
 
 Ces fichiers avec le suffixe `_n` sont des "normal map" : il s'agit de la même texture traitée différemment afin de donner des instructions de détail et de profondeur et permettre ainsi au modèle d'avoir du relief et de réagir aux sources de lumière dans le jeu. 
 
-> Ces fichiers sont importants, et doivent être à la même résolution que la texture principale. Sans "normal map" l'objet est plat et ne renvoie pas la lumière. 
+> Ces fichiers sont importants, sans la "normal map" l'objet est plat et ne renvoie pas la lumière. 
 {: .prompt-info }
 
 ### Conversion en PNG
@@ -86,8 +86,11 @@ Certains des logiciels pour l'upscale par IA n'acceptent pas le format `dds` com
 Il existe *beaucoup* de modèles différents, entrainés sur des *datasets* divers et avec des fonctionnalités d'upscale ciblées. Le site [OpenModelDB](https://openmodeldb.info/) contient une large collection de modèles et permet de les trier selon les fonctionnalités voulues. La plupart sont utilisables dans chaiNNer.
 Pour cet exemple précis, le "Fleshy pod", j'ai trouvé que les meilleurs résultats sont donnés par le modèle "Low Res" de Gigapixel, cependant les résultats avec Upscayl sont très corrects.
 
-> Un des avantages avec chaiNNer est la possibilité d'utiliser nativement le format `dds` (Direct Draw Surface) en entrée et en sortie et donc d'éviter les conversions dds/png.
-{: .prompt-tip}
+
+#### Seamless maker
+
+Le logiciel [Seamless maker](https://github.com/Seasoned-In-Chaos/seamless-texture-maker) permet de transformer les bords de la texture afin de la rendre "tileable". L'utilisation de cette technique évite d'avoir des raccords de texture apparents en jeu. L'application permet d'ajuster avec finesse les zones de raccord.
+
 
 #### Conversion en DDS
 
@@ -114,12 +117,11 @@ Le moteur de jeu d'Oblivion supporte les formats de texture BC1/DXT1 et BC3/DXT5
 
 ### Création de la normal map
 
-La "normal map" est créée d'après la texture "upscalée". J'ai testé avec GIMP, Paint.NET, Nvidia Texture Tool Exporter, Shader Map 4 et xNormal et mon choix se porte vers le plugin de Paint.NET pour la prévisualisation en direct des paramètres. Télécharger le plugin depuis la page [Height to Normal Map](https://forums.getpaint.net/topic/132049-height-to-normal-map-17-nov-2024/#comment-640277) et l'installer en suivant les instructions [Install Plugins](https://www.getpaint.net/doc/latest/InstallPlugins.html).
+Plusieurs possibilités : Gimp, Paint.NET, xNormal, Shader Map 4, Crazy Bump, Materialize...
 
-Ouvrir ensuite le fichier `fleshsack.dds` dans Paint.NET et passer l'image en niveau de gris : `Ajustements > Noir et Blanc`, puis créer la normal map depuis `Effets > Styliser > Height to Normal Map`. Réglages utilisés dans ce cas : 9x9 Sobel, strength 3. 
+Gimp inclut de base une fonctionnalité de génération de normal map dont les contrôles sont assez limités. Le plugin pour Paint.NET est plus abouti et permet des réglages plus fins avec prévisualisation. Crazy Bump et Materialize donnent de bons résultats et permettent des réglages plus poussés.
 
-`Enregistrer sous fleshsack_n.dds` puis sélectionner BC3 (linéaire, DXT5).
-
+Pour le plugin de Paint.NET : le télécharger depuis la page [Height to Normal Map](https://forums.getpaint.net/topic/132049-height-to-normal-map-17-nov-2024/#comment-640277) et l'installer en suivant les instructions [Install Plugins](https://www.getpaint.net/doc/latest/InstallPlugins.html). Après avoir désaturé la texture, lancer la génération depuis `Effets > Styliser > Height to Normal Map`. Une fois créée et ajustée exporter via `Enregistrer sous fleshsack_n.dds` puis sélectionner BC3 (linéaire, DXT5).
 
 > Le passage en noir et blanc est important pour la qualité de la normal map.
 {: .prompt-tip }
@@ -132,7 +134,7 @@ _Avec l'étape Noir et Blanc_
 
 ### Créer le mod et l'installer
 
-Trivial, compresser le dossier `textures` dans lequel se trouvent les fichiers édités en 7z avec 7z-gui, lui donner un nom identifiable, par exemple `Fleshsack1K_GigapixelRecover.7z`. La structure du dossier à compresser est `textures\oblivion\citadelexterior\traps\[fleshsack.dds,fleshsack_n.dds]`{: .filepath}. 
+Compresser le dossier `textures` (dans lequel se trouvent les fichiers édités) en 7z avec 7z-gui, lui donner un nom identifiable, par exemple `Fleshsack1K_GigapixelRecover.7z`. La structure du dossier à compresser est `textures\oblivion\citadelexterior\traps\[fleshsack.dds,fleshsack_n.dds]`{: .filepath}. 
 
 Installer depuis Mod Organizer 2 (Ctrl M), activer le mod et lancer le jeu.
 
